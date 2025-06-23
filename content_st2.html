@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Content Page</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header class="top-header">
+            <div class="container">
+                <a href="home.html" class="logo-title">
+                    <img src="d:\1st year\2nd semester\Web dev\HDUS\14-Life-below-water.png" alt="Site Logo" class="logo-img">
+                    <span> Life Below Water </span>
+                </a>
+                <nav>
+                    <ul class="nav-bar">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="userprofile.html">User Profile</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="sitemap.html">Sitemap</a></li>
+                        <li><a href="content_st2.html" class="active">Content</a></li>
+                        <li><a href="pgEditor_st2.html">Page Editor</a></li>
+                        <li><a href="validation_st2.html">Validation</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="section-nav">
+            <a href="#intro">Introduction</a>
+            <a href="#effects">Effects</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#future">Future</a>
+        </div>
+
+        <main class="content-section">
+            <section id="intro">
+                <h1>Plastic Pollution in the Ocean</h1>
+                <p>Millions of tons of plastic waste enter the oceans every year.It impacts marine species, ecosystems and even human health through the food chain</p>
+                <img src="" alt="Plastic floating in the sea" class="content-img">
+            </section>
+
+            <section id="effects">
+                <h2>How it Affects Marine Life</h2>
+                <p>Plastic entangles marine animals, is mistaken for food and breaks down into microplastics. Turtles, seabirds and whales are common victims.</p>
+                <img src="" alt="Turtle trapped in plastic" class="content-img">
+            </section>
+
+            <section id="solutions">
+                <h2>What we can do</h2>
+                <ul>
+                    <li>Avoid single-use plastics</li>
+                    <li>Participate in beach clean-ups</li>
+                    <li>Support plastic bans and eco legislation</li>
+                    <li>Educate others and spread awareness</li>
+                </ul>
+                <img src="" alt="Volunteers cleaning the beach" class="content-img">
+            </section>
+
+            <section id="future">
+                <h2>The Future of Our Oceans</h2>
+                <p>With global effort, innovation and education, we can reduce pollutions and protect marine ecosystem for future generations.</p>
+                <img src="" alt="Healthy coral reef" class="content-img">
+            </section>
+        </main>
+
+        <button onclick="scrollToTop()" id="goTopBtn">Go to the top</button>
+
+        <script>
+            function scrollToTop() {
+                window.scrollTo({top:0, behaviour: 'smooth'});
+            }
+        </script>
+    </body>
+</html>
